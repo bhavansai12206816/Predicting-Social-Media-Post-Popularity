@@ -18,6 +18,7 @@ This project predicts social media post popularity using Engagement Rate (ER) an
 
 
 🚀✨ Key Features<br>
+
 🎯 1. Manual Popularity Prediction
 
 Input fields:
@@ -36,7 +37,7 @@ Followers
 
 Caption Length
 
-Outputs:
+Outputs:<br>
 ⭐ Predicted Engagement Rate: 0.1110 (11.10%)<br>
 🔥 Popularity Level: HIGH<br>
 
@@ -45,13 +46,13 @@ Outputs:
 Filter by:
 Instagram / Twitter / LinkedIn / TikTok / All
 
-Includes:
+Includes:<br>
 📌 Engagement rate distribution (plots)<br>
 📌 Summary statistics<br>
 📌 10,000+ posts analyzed<br>
 
 📉 3. Model Evaluation<br>
-Metric	Value
+Metric	Value<br>
 📊 R² Score	0.987<br>
 📉 RMSE	0.00358<br>
 ⚖️ MAE	0.00232<br>
