@@ -1,24 +1,34 @@
-🌈✨ <div align="center"><span style="font-size:60px;">📈 Predicting Social Media Post Popularity</span></div>
-<div align="center">🔥 An interactive ML-powered dashboard to predict engagement rate, analyze platform insights & evaluate model performance — deployed live on Render! 🔥</div>
-<p align="center"> <a href="https://predicting-social-media-post-popularity.onrender.com"> <img src="https://img.shields.io/badge/Get%20Started-LIVE%20APP-brightgreen?style=for-the-badge&logo=streamlit" /> </a> <a href="https://github.com/bhavansai12206816/Predicting-Social-Media-Post-Popularity/archive/refs/heads/main.zip"> <img src="https://img.shields.io/badge/Download%20ZIP-blue?style=for-the-badge&logo=github" /> </a> </p>
+🌈📈 Predicting Social Media Post Popularity
+<div align="center">
+
+🔥 An ML-powered interactive dashboard to predict engagement, analyze platform insights & evaluate model performance — deployed on Render! 🔥
+<br>
+
+<a href="https://predicting-social-media-post-popularity.onrender.com"> <img src="https://img.shields.io/badge/🚀 Live App-Click%20Here-brightgreen?style=for-the-badge&logo=streamlit" /> </a> <a href="https://github.com/bhavansai12206816/Predicting-Social-Media-Post-Popularity/archive/refs/heads/main.zip"> <img src="https://img.shields.io/badge/⬇️ Download ZIP-Project-blue?style=for-the-badge&logo=github" /> </a> </div>
 🌟 Overview
 
-This project predicts how well a social media post will perform using Engagement Rate (ER) and provides:
+This project predicts social media post popularity using Engagement Rate (ER) and provides:
 
-✨ Manual popularity prediction
-✨ Platform-wise insights
+✨ Manual engagement prediction
+✨ Platform-wise analytics
 ✨ Interactive visualizations
-✨ ML model evaluation
+✨ Random Forest–based ML model
 ✨ Fully deployed Streamlit web app
-✨ Logging & modular ML pipeline
+✨ Modular pipeline + logging
 
 📌 Engagement Rate Formula
-                     Likes + Comments + Shares​
-Engagement Rate =   ___________________________
-                             Followers
+Engagement
+ 
+Rate
+=
+Likes + Comments + Shares
+Followers
+Engagement Rate=
+Followers
+Likes + Comments + Shares
 	​
 
-🚀 Key Features
+🚀✨ Key Features
 🎯 1. Manual Popularity Prediction
 
 Input fields:
@@ -38,73 +48,72 @@ Followers
 Caption Length
 
 Outputs:
-
 ⭐ Predicted Engagement Rate: 0.1110 (11.10%)
-
 🔥 Popularity Level: HIGH
 
 📊 2. Dataset Insights by Platform
 
-Filter by: Instagram / Twitter / LinkedIn / TikTok / All
+Filter by:
+Instagram / Twitter / LinkedIn / TikTok / All
 
-Engagement rate distribution
-
-Statistics for each platform
-
-10,000+ posts analyzed
+Includes:
+📌 Engagement rate distribution (plots)
+📌 Summary statistics
+📌 10,000+ posts analyzed
 
 📉 3. Model Evaluation
-
-Metrics from live app:
-
 Metric	Value
 📊 R² Score	0.987
 📉 RMSE	0.00358
 ⚖️ MAE	0.00232
 
-Extremely strong performance (almost perfect fit).
+✨ Extremely strong performance — almost perfect fit.
 
 🤖 Machine Learning Model
 🌲 Random Forest Regressor
 
-Used because it:
+Chosen because it:
 
-Captures non-linear relationships
+✔ Captures non-linear relationships
+✔ Works well on large datasets
+✔ Stable + robust
+✔ Avoids overfitting
+✔ Does not require feature scaling
 
-Handles numeric features without scaling
+📌 Achieved R² score of 0.987.
 
-Avoids overfitting using many trees
+🎨📊 What the App Shows
+🔮 Manual Popularity Prediction (Example Input)
+Platform: Instagram
+Media Type: Image
+Likes: 100
+Comments: 10
+Shares: 1
+Followers: 1000
+Caption Length: 100
 
-Provides high accuracy and stability
 
-Works well on large datasets
+⭐ Predicted ER: 0.1110
+🔥 Popularity: HIGH
 
-🔬 This model produced very high R² score (0.987) on evaluation.
+📊 Platform Insights
 
-📊 What You See in the App
-🎨 💡 Social Media Post Popularity — Manual Input & Platform Insights
-🔮 Manual Popularity Prediction
-Platform: instagram  
-Media Type: image  
-Likes: 100  
-Comments: 10  
-Shares: 1  
-Followers: 1000  
-Caption Length: 100  
+Selected Platform: All
 
-⭐ Predicted Engagement Rate (formula): 0.1110 (11.10%)
-🔥 Popularity Level: HIGH
-📊 Dataset Insights by Platform
-Selected Platform: All  
-Posts: 10000  
+Posts analyzed: 10000
 
-Engagement Rate Distribution (Histogram shown in app)
-⚖️ Model Evaluation — Actual vs Predicted Engagement Rate
+Histogram of engagement rate
+
+Summary statistics
+
+⚖️ Model Evaluation (Live App)
+
 📊 R² Score → 0.987
 📉 RMSE → 0.00358
 ⚖️ MAE → 0.00232
-📥 How to Run the Project Locally
-1️⃣ Clone the project
+
+🛠️ How to Run Locally
+1️⃣ Clone the repository
 git clone https://github.com/bhavansai12206816/Predicting-Social-Media-Post-Popularity.git
 cd Predicting-Social-Media-Post-Popularity
 
@@ -116,7 +125,7 @@ streamlit run app.py
 
 ☁️ Deployment (Render)
 
-App is deployed using this config:
+Using this config:
 
 services:
   - type: web
@@ -126,34 +135,27 @@ services:
     buildCommand: "pip install -r requirements.txt"
     startCommand: "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"
 
+Live App
 
-Live App:
 👉 https://predicting-social-media-post-popularity.onrender.com
 
-🛠 Technologies Used
+🧰 Technologies Used
 
-Python
+🐍 Python
+🎨 Streamlit
+📊 Pandas, NumPy
+📈 Scikit-learn
+🌲 Random Forest Regressor
+📦 Joblib
+⚡ Plotly
+🪶 PyArrow (Parquet)
+📝 Custom Logging
 
-Streamlit
+🤝 Contributing
 
-Pandas, NumPy
-
-Scikit-learn
-
-Plotly
-
-Random Forest Regressor
-
-Joblib
-
-PyArrow / Parquet
-
-Logging (custom logger)
-
-🙌 Contributing
-
-Feel free to submit issues or pull requests!
+Pull requests and issues are welcome!
+Feel free to improve models, UI, dataset, or deployment.
 
 📜 License
 
-MIT License — open for anyone to use, modify, improve.
+📝 MIT License — free to use, modify, and share.
