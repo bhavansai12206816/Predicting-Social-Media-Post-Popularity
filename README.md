@@ -15,7 +15,7 @@
 
 <br><br>
 
-<h1><span style="font-size: 22px;">🌟 Overview</span></h1>
+<h1><span style="font-size: 18px;">🌟 Overview</span></h1>
 
 This project predicts social media post popularity using Engagement Rate (ER) and provides:
 <br><br>
@@ -28,7 +28,7 @@ This project predicts social media post popularity using Engagement Rate (ER) an
 
 <br>
 
-<h1><span style="font-size: 22px;">🚀✨ Key Features</span></h1>
+<h1><span style="font-size: 18px;">🚀✨ Key Features</span></h1>
 
 🎯 <b>1. Manual Popularity Prediction</b><br><br>
 
@@ -69,7 +69,7 @@ Includes:<br>
 
 <br>
 
-<h1><span style="font-size: 22px;">🤖 Machine Learning Model</span></h1>
+<h1><span style="font-size: 18px;">🤖 Machine Learning Model</span></h1>
 
 🌲 <b>Random Forest Regressor</b><br><br>
 
@@ -84,7 +84,7 @@ Chosen because it:<br>
 
 <br>
 
-<h1><span style="font-size: 22px;">🎨📊 What the App Shows</span></h1>
+<h1><span style="font-size: 18px;">🎨📊 What the App Shows</span></h1>
 
 🔮 <b>Manual Popularity Prediction (Example Input)</b><br><br>
 
@@ -101,7 +101,7 @@ Caption Length: 100<br><br>
 
 <br>
 
-<h1><span style="font-size: 22px;">📊 Platform Insights</span></h1>
+<h1><span style="font-size: 18px;">📊 Platform Insights</span></h1>
 
 Selected Platform: All<br>
 Posts analyzed: 10000<br>
@@ -110,7 +110,7 @@ Summary statistics<br>
 
 <br>
 
-<h1><span style="font-size: 22px;">⚖️ Model Evaluation (Live App)</span></h1>
+<h1><span style="font-size: 18px;">⚖️ Model Evaluation (Live App)</span></h1>
 
 📊 R² Score → 0.987<br>
 📉 RMSE → 0.00358<br>
@@ -118,7 +118,7 @@ Summary statistics<br>
 
 <br>
 
-<h1><span style="font-size: 22px;">🛠️ How to Run Locally</span></h1>
+<h1><span style="font-size: 18px;">🛠️ How to Run Locally</span></h1>
 
 1️⃣ Clone the repository<br>
 git clone https://github.com/bhavansai12206816/Predicting-Social-Media-Post-Popularity.git<br>
@@ -132,7 +132,7 @@ streamlit run app.py<br>
 
 <br>
 
-<h1><span style="font-size: 22px;">☁️ Deployment (Render)</span></h1>
+<h1><span style="font-size: 18px;">☁️ Deployment (Render)</span></h1>
 
 Using this config:<br><br>
 
@@ -146,13 +146,13 @@ services:<br>
 
 <br>
 
-<h1><span style="font-size: 22px;">📡 Live App</span></h1>
+<h1><span style="font-size: 18px;">📡 Live App</span></h1>
 
 👉 https://predicting-social-media-post-popularity.onrender.com<br>
 
 <br>
 
-<h1><span style="font-size: 22px;">🧰 Technologies Used</span></h1>
+<h1><span style="font-size: 18px;">🧰 Technologies Used</span></h1>
 
 🐍 Python<br>
 🎨 Streamlit<br>
@@ -166,7 +166,7 @@ services:<br>
 
 <br>
 
-<h1><span style="font-size: 22px;">🤝 Contributing</span></h1>
+<h1><span style="font-size: 18px;">🤝 Contributing</span></h1>
 
 Pull requests and issues are welcome!<br>
 Feel free to improve models, UI, dataset, or deployment.<br>
