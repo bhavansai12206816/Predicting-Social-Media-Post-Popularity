@@ -9,26 +9,15 @@
 
 This project predicts social media post popularity using Engagement Rate (ER) and provides:
 
-✨ Manual engagement prediction
-✨ Platform-wise analytics
-✨ Interactive visualizations
-✨ Random Forest–based ML model
-✨ Fully deployed Streamlit web app
-✨ Modular pipeline + logging
+✨ Manual engagement prediction<br>
+✨ Platform-wise analytics<br>
+✨ Interactive visualizations<br>
+✨ Random Forest–based ML model<br>
+✨ Fully deployed Streamlit web app<br>
+✨ Modular pipeline + logging<br>
 
-📌 Engagement Rate Formula
-Engagement
- 
-Rate
-=
-Likes + Comments + Shares
-Followers
-Engagement Rate=
-Followers
-Likes + Comments + Shares
-	​
 
-🚀✨ Key Features
+🚀✨ Key Features<br>
 🎯 1. Manual Popularity Prediction
 
 Input fields:
@@ -48,8 +37,8 @@ Followers
 Caption Length
 
 Outputs:
-⭐ Predicted Engagement Rate: 0.1110 (11.10%)
-🔥 Popularity Level: HIGH
+⭐ Predicted Engagement Rate: 0.1110 (11.10%)<br>
+🔥 Popularity Level: HIGH<br>
 
 📊 2. Dataset Insights by Platform
 
@@ -57,44 +46,44 @@ Filter by:
 Instagram / Twitter / LinkedIn / TikTok / All
 
 Includes:
-📌 Engagement rate distribution (plots)
-📌 Summary statistics
-📌 10,000+ posts analyzed
+📌 Engagement rate distribution (plots)<br>
+📌 Summary statistics<br>
+📌 10,000+ posts analyzed<br>
 
-📉 3. Model Evaluation
+📉 3. Model Evaluation<br>
 Metric	Value
-📊 R² Score	0.987
-📉 RMSE	0.00358
-⚖️ MAE	0.00232
+📊 R² Score	0.987<br>
+📉 RMSE	0.00358<br>
+⚖️ MAE	0.00232<br>
 
-✨ Extremely strong performance — almost perfect fit.
+✨ Extremely strong performance — almost perfect fit.<br>
 
 🤖 Machine Learning Model
 🌲 Random Forest Regressor
 
-Chosen because it:
+Chosen because it:<br>
 
-✔ Captures non-linear relationships
-✔ Works well on large datasets
-✔ Stable + robust
-✔ Avoids overfitting
-✔ Does not require feature scaling
+✔ Captures non-linear relationships<br>
+✔ Works well on large datasets<br>
+✔ Stable + robust<br>
+✔ Avoids overfitting<br>
+✔ Does not require feature scaling<br>
 
 📌 Achieved R² score of 0.987.
 
-🎨📊 What the App Shows
-🔮 Manual Popularity Prediction (Example Input)
-Platform: Instagram
-Media Type: Image
-Likes: 100
-Comments: 10
-Shares: 1
-Followers: 1000
-Caption Length: 100
+🎨📊 What the App Shows<br>
+🔮 Manual Popularity Prediction (Example Input)<br>
+Platform: Instagram<br>
+Media Type: Image<br>
+Likes: 100<br>
+Comments: 10<br>
+Shares: 1<br>
+Followers: 1000<br>
+Caption Length: 100<br>
 
 
-⭐ Predicted ER: 0.1110
-🔥 Popularity: HIGH
+⭐ Predicted ER: 0.1110<br>
+🔥 Popularity: HIGH<br>
 
 📊 Platform Insights
 
@@ -112,7 +101,7 @@ Summary statistics
 📉 RMSE → 0.00358
 ⚖️ MAE → 0.00232
 
-🛠️ How to Run Locally
+🛠️ How to Run Locally<br>
 1️⃣ Clone the repository
 git clone https://github.com/bhavansai12206816/Predicting-Social-Media-Post-Popularity.git
 cd Predicting-Social-Media-Post-Popularity
@@ -141,15 +130,15 @@ Live App
 
 🧰 Technologies Used
 
-🐍 Python
-🎨 Streamlit
-📊 Pandas, NumPy
-📈 Scikit-learn
-🌲 Random Forest Regressor
-📦 Joblib
-⚡ Plotly
-🪶 PyArrow (Parquet)
-📝 Custom Logging
+🐍 Python<br>
+🎨 Streamlit<br>
+📊 Pandas, NumPy<br>
+📈 Scikit-learn<br>
+🌲 Random Forest Regressor<br>
+📦 Joblib<br>
+⚡ Plotly<br>
+🪶 PyArrow (Parquet)<br>
+📝 Custom Logging<br>
 
 🤝 Contributing
 
