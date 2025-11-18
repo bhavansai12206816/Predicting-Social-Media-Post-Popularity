@@ -1,4 +1,5 @@
 <h1 align="center"><span style="font-size: 50px;">🌈📈 Predicting Social Media Post Popularity</span></h1>
+<div align="center">
 
 🔥 An ML-powered interactive dashboard to predict engagement, analyze platform insights & evaluate model performance — deployed on Render! 🔥
 <br>
