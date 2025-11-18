@@ -5,7 +5,8 @@
 <br>
 
 <a href="https://predicting-social-media-post-popularity.onrender.com"> <img src="https://img.shields.io/badge/🚀 Live App-Click%20Here-brightgreen?style=for-the-badge&logo=streamlit" /> </a> <a href="https://github.com/bhavansai12206816/Predicting-Social-Media-Post-Popularity/archive/refs/heads/main.zip"> <img src="https://img.shields.io/badge/⬇️ Download ZIP-Project-blue?style=for-the-badge&logo=github" /> </a> </div>
-🌟 Overview
+
+<h1><span style="font-size: 30px;">🌟 Overview
 
 This project predicts social media post popularity using Engagement Rate (ER) and provides:
 
@@ -17,7 +18,7 @@ This project predicts social media post popularity using Engagement Rate (ER) an
 ✨ Modular pipeline + logging<br>
 
 
-🚀✨ Key Features<br>
+<h1><span style="font-size: 30px;">🚀✨ Key Features<br>
 
 🎯 1. Manual Popularity Prediction
 
@@ -59,7 +60,7 @@ Metric	Value<br>
 
 ✨ Extremely strong performance — almost perfect fit.<br>
 
-🤖 Machine Learning Model
+<h1><span style="font-size: 30px;">🤖 Machine Learning Model<br>
 🌲 Random Forest Regressor
 
 Chosen because it:<br>
@@ -72,7 +73,7 @@ Chosen because it:<br>
 
 📌 Achieved R² score of 0.987.
 
-🎨📊 What the App Shows<br>
+<h1><span style="font-size: 30px;">🎨📊 What the App Shows<br>
 🔮 Manual Popularity Prediction (Example Input)<br>
 Platform: Instagram<br>
 Media Type: Image<br>
@@ -86,7 +87,7 @@ Caption Length: 100<br>
 ⭐ Predicted ER: 0.1110<br>
 🔥 Popularity: HIGH<br>
 
-📊 Platform Insights
+<h1><span style="font-size: 30px;">📊 Platform Insights
 
 Selected Platform: All
 
@@ -96,13 +97,13 @@ Histogram of engagement rate
 
 Summary statistics
 
-⚖️ Model Evaluation (Live App)
+<h1><span style="font-size: 30px;">⚖️ Model Evaluation (Live App)
 
 📊 R² Score → 0.987
 📉 RMSE → 0.00358
 ⚖️ MAE → 0.00232
 
-🛠️ How to Run Locally<br>
+<h1><span style="font-size: 30px;">🛠️ How to Run Locally<br>
 1️⃣ Clone the repository
 git clone https://github.com/bhavansai12206816/Predicting-Social-Media-Post-Popularity.git
 cd Predicting-Social-Media-Post-Popularity
@@ -113,7 +114,7 @@ pip install -r requirements.txt
 3️⃣ Run the Streamlit app
 streamlit run app.py
 
-☁️ Deployment (Render)
+<h1><span style="font-size: 30px;">☁️ Deployment (Render)
 
 Using this config:
 
@@ -125,11 +126,11 @@ services:
     buildCommand: "pip install -r requirements.txt"
     startCommand: "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"
 
-Live App
+<h1><span style="font-size: 30px;">📡Live App
 
 👉 https://predicting-social-media-post-popularity.onrender.com
 
-🧰 Technologies Used
+<h1><span style="font-size: 30px;">🧰 Technologies Used
 
 🐍 Python<br>
 🎨 Streamlit<br>
@@ -141,9 +142,9 @@ Live App
 🪶 PyArrow (Parquet)<br>
 📝 Custom Logging<br>
 
-🤝 Contributing
+<h1><span style="font-size: 30px;">🤝 Contributing
 
-Pull requests and issues are welcome!
+Pull requests and issues are welcome!<br>
 Feel free to improve models, UI, dataset, or deployment.
 
 📜 License
